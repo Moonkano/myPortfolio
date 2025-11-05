@@ -7,7 +7,7 @@
 header{
     width: 100%;
     align-items: center;
-    background-color: rgb(255, 8, 8);
+    background-color: rgb(187, 205, 220);
     padding-bottom: 5px;
 }
 
@@ -31,7 +31,7 @@ header h1{
 }
 
 .current{
-    color:aqua;
+    color:rgb(213, 232, 232);
 }
 
 a:link{
@@ -55,6 +55,6 @@ footer{
     width:100%;
     position: fixed;
     bottom: 0;
-    background-color:aquamarine;
+    background-color:rgb(198, 217, 211);
     text-align: center;
 }
