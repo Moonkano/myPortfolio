@@ -69,16 +69,19 @@ a:hover{
 
 .content{
     width:100%;
-    padding-left: 30px;
     padding-bottom: 57px;
-    background-image: url(images/pastel.png);
-    background-repeat: no-repeat;
+    background-color: rgb(208, 202, 240);
+    background-repeat: repeat;
     background-size: cover;
     background-position: center;
+    text-align:center;
 }
 
 .list-aboutme{
-    list-style-type: lower-roman
+    padding-left: 30px;
+    list-style-type: lower-roman;
+    display:inline-block;
+    text-align:left;
 }
 
 footer{
@@ -97,6 +100,10 @@ footer{
     border-width: 2px;
     border-radius: 15px;
     border-color: rgb(75, 25, 238);
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
 }
 
 .illustrations img{
@@ -142,14 +149,37 @@ cursor:pointer; /*Determines what your cursor is when hovering over it*/
 }
 
 #artButton:hover #slide {
-    left: 0; /*this initiates the slide effect by adjusting the left*/
+    left: 0; /*this initiates the slide effect by adjusting the left when it is hovered over*/
 }
 
 #artButton:hover a{
-    color: #2DC142 /*turns the text green*/
+    color: #2DC142 /*turns the text green when hovered over*/
 }
 
 .music-centered {
     text-align: center;
     padding-top: 20px;
+}
+
+.aboutmeText {
+    color: purple;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.content p {
+    color: rgb(150, 52, 235);
+    text-align: center;
+}
+
+.project-table {
+    border-collapse:collapse;
+    margin: auto;
+    margin-top:10px;
+}
+
+.project-table td, .project-table th {
+    border:1px dashed black;
+    padding: 3px;
+    text-align: center;
 }
