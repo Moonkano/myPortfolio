@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="styles.css">
         <link rel="shortcut icon" href="images/logo.png">
         <title>Contact</title>
+        <script src="contact.js" defer></script>
     </head>
     <body>
         <header>
@@ -25,6 +26,26 @@
             <div class="music-centered">
                     <p>lillianclosner1@gmail.com</p>
                     <p>9564005436</p>
+                    <p>OR JUST CONTACT ME HERE:</p>
+                    <form name="contactMe" onsubmit="return validateForm();">
+                    <script src="contact.js" defer></script>
+                        <fieldset>
+                            <legend>Contact Me</legend>
+                            <label>Name:</label>
+                            <input name="name" type="text"><br/>
+
+                            <label>Email:</label>
+                            <input name="email" type="email"><br/>
+
+                            <label>Phone:</label>
+                            <input name="phone" type="tel"> <br/>
+                            <label>Message:</label>
+                            <textarea name="msg" rows="4" cols="50"></textarea> <br/>
+
+                            <label></label>
+                            <input type="submit" value="Send Message!">
+                        </fieldset>
+                    </form>
             </ol>
             </div>
         </div>
